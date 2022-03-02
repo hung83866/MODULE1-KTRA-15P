@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhập 1 dãy số và thêm dấu - vào giữa 2 số chẵn</title>
+</head>
+<body>
+<script>
+    let so= prompt('nhập số');
+    let day = so.toString();
+    let ketqua = [day[0]];
+    for (let x=1;x<day.length;x++){
+        if ((day[x-1]%2==0)&&(day[x]%2==0)){
+            ketqua.push('-',day[x]);
+        }else {
+            ketqua.push(day[x]);
+        }
+    }
+    document.write(ketqua.join(''))
+</script>
+</body>
+</html>
