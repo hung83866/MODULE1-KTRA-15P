@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/kiemtra15p.iml" filepath="$PROJECT_DIR$/.idea/kiemtra15p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lập trình hướng đối tượng/.idea/lập trình hướng đối tượng.iml" filepath="$PROJECT_DIR$/../lập trình hướng đối tượng/.idea/lập trình hướng đối tượng.iml" />
     </modules>
   </component>
 </project>
